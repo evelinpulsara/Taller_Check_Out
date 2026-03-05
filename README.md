@@ -1,16 +1,21 @@
-# check_out
+# Flutter Local Database Workshop
 
-A new Flutter project.
+## Technology Used
+SQLite (sqflite package)
 
-## Getting Started
+## Features
+- Save credit card data locally
+- Persist data after app restart
+- Load saved card automatically
+- Basic field validation
+- Pixel-based payment UI
 
-This project is a starting point for a Flutter application.
+## Run Project
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub get
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Database
+The application uses SQLite to store one payment card locally.
+When the checkbox is selected and "Proceed to confirm" is pressed,
+the card is saved and loaded automatically on restart.

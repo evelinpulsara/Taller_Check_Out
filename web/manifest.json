@@ -1,6 +1,6 @@
 {
-    "name": "check_out",
-    "short_name": "check_out",
+    "name": "todo_sqlite",
+    "short_name": "todo_sqlite",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
